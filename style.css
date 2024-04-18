@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", serif;
+}
+
+header{
+
+}
+
+body{
+    background-image: linear-gradient(to bottom right, #E55D87, #5FC3E4);
+    height: 100vh;
+    display: flex;
+}
