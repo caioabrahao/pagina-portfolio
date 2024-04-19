@@ -4,12 +4,27 @@
     font-family: "Arial", serif;
 }
 
-header{
-
-}
-
 body{
     background-image: linear-gradient(to bottom right, #E55D87, #5FC3E4);
     height: 100vh;
     display: flex;
+    align-items: center;
 }
+
+.center-items{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.text-and-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.retrato-pixelart{
+    border-radius: 10%;
+}
+
+
