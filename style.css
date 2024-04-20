@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
-    font-family: "Arial", serif;
+    font-family: "Ubuntu", sans-serif;
 }
 
 body{
-    background-image: linear-gradient(to bottom right, #E55D87, #5FC3E4);
+    background-color: #1F1B24;
+    color: azure;
+    /* background-image: linear-gradient(to bottom right, #E55D87, #5FC3E4); */
     height: 100vh;
     display: flex;
     align-items: center;
@@ -14,13 +18,32 @@ body{
 .center-items{
     display: flex;
     justify-content: space-between;
-    margin-left: 10vh;
-    margin-right: 10vh;
+    margin-left: 30vh;
+    margin-right: 30vh;
 }
 
 .text-and-links{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+.social-media-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #DDD92A;
+    text-decoration: none;
+    border-radius: 15px;
+    text-decoration-color: black;
+}
+
+.paragrafo-principal{
+    font-size: 24px;
+}
+
+.main-subtitle{
+    font-size: 36px;
 }
 
 .retrato-pixelart{
