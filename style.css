@@ -6,22 +6,51 @@
     font-family: "Ubuntu", sans-serif;
 }
 
+.header-class{
+    display: flex;
+    padding: 24px;
+    justify-content: center;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.nav-links{
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #EAEAEA;
+}
+
+.nav-links:hover{
+    color: #F0A202;
+    /*border-bottom: #F0A202 solid 2px;*/
+
+}
+
 body{
     background-color: #1F1B24;
     color: #EAEAEA;
-    /* background-image: linear-gradient(to bottom right, #E55D87, #5FC3E4); */
-    height: 100vh;
+}
+
+.about-main{
     display: flex;
-    align-items: center;
-    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.about-photo{
+    scale: 50%;
 }
 
 .center-items{
     display: flex;
-    justify-content: space-between;
-    margin-left: 50vh;
-    margin-right: 50vh;
-    gap: 60px;
+    padding: 14vh 14vh 14vh 45vh;
+    gap: 10vh;
 }
 
 .text-and-links{
@@ -31,19 +60,28 @@ body{
     gap: 20px;
 }
 
+.social-media-title{
+    font-weight: normal;
+}
+
 .social-media-buttons{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
 
 }
 
 .sm-button{
-    background-color: #F0A202;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
     text-decoration: none;
+    border-color: #F0A202;
+    border-style: solid;
     border-radius: 15px;
-    color: #1F1B24;
+    color: #EAEAEA;
     padding: 15px;
     width: 260px;
     font-weight: bold;
@@ -52,11 +90,13 @@ body{
 }
 
 .sm-button:hover {
-    background-color: #EAEAEA;
+    border-color: #EAEAEA;
+    scale: 103%;
 }
 
 .paragrafo-principal{
     font-size: 24px;
+    width: 628px;
 }
 
 .about-main{
@@ -95,6 +135,17 @@ body{
 .central-image-container{
     align-content: center;
     box-sizing: content-box;
+}
+
+.footer-class{
+    padding: 24px;
+    width: 100vw;
+    background-color: #F0A202;
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    color: #1F1B24;
+    box-sizing: border-box;
 }
 
 
